@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "types": [
+      "node", "jest"
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "paths": {
+      "vue": [
+        "node_modules/vue/dist/vue.esm.js"
+      ]
+    }
+  },
+  "include": ["**/*.ts"]
+}
